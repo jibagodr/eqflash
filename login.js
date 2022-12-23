@@ -3,7 +3,7 @@ const param = new URLSearchParams(window.location.search);
 const username = param.get('username');
 const pw = param.get('pw');
 
-if(username.toLowerCase() === 'eqflash' && pw === 'eqflash'){
+if(username.toLowerCase() === 'eqflash00' && pw === 'eqflash00'){
   message.innerHTML = 'Welcome to the gaming world!!!';
 } else if(!username || !pw){
   message.innerHTML = 'Add some client-side validation!';
